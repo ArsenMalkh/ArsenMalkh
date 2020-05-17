@@ -1,0 +1,13 @@
+A project consisting of a website and bot telegrams. On the website you can set the time and text of alarms and in a telegram you will receive a message from the bot at the right time.
+
+to start the project /
+
+1) If you do not have a <ssl> certificate, then you need to create it, for example, a self-signed certificate can be created using the <openssl> command
+
+2) Next, you need to install <postgresql>, for example, using the sudo apt-get install <postgresql> command for ubuntu
+
+3) Then create a separate database for the project and the user and create a new bot.
+
+4) Now it remains only to indicate all this information in the form of json similar to the file sample_config.json. The location of the files must be specified relative to the location of the run.sh script.
+
+5) To run the project, run the file run.sh. Command: ./run.sh [your config file]
